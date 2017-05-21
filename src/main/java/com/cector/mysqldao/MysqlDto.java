@@ -78,4 +78,9 @@ public class MysqlDto {
         this.address = address;
         this.time = time;
     }
+    
+    public String toString()
+    {
+        return "MysqlDto [id=" + id + "], [name=" + name + "]";
+    }
 }
